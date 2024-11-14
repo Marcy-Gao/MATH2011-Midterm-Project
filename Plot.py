@@ -51,7 +51,7 @@ def newtons_method(x0, tol=1e-7, max_iter=100, precision=np.float64, root_truth=
 
 precisions = [np.float16, np.float32, np.float64, np.longdouble]
 tolerances = [1e-7]
-root_truth = 2.094551482  
+root_truth = 2.09455148154232659 
 
 results_bisection = []
 results_newton = []
